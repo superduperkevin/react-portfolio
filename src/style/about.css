@@ -1,15 +1,36 @@
-.about-content {
+.about-component {
+    height: 100%;
     display: grid;
     grid-template-columns: 100vw;
     grid-template-rows: min-content min-content;
-    background: rgba(228, 241, 254, 0.9);
+    /* background: rgba(228, 241, 254, 0.9); */
+    /* background: url('../images/ocean.jpg') no-repeat center; */
+    /* background-size: cover; */
+    position: relative;
+}
+
+.about-component::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    /* height: 100%; */
+    top: 0;
+    bottom: 0;
+    left: 0;
+    /* top: -50%; */
+    /* left: -50%; */
+    z-index: -1;
+    background: url('../images/dawn.jpg') no-repeat center fixed;
+    background-size: cover;
+    
 }
 
 .top {
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: min-content;
-    /* margin-top: 5rem; */
+    grid-template-rows: max-content;
+    margin-top: 7rem;
     /* align-items: center; */
     /* background-color: blueviolet; */
 }
@@ -50,6 +71,13 @@
 .about-details {
     flex: 1;
     line-height: 1.5;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 5rem;
+    /* opacity: 0.8; */
+    /* margin-top: 5rem; */
+    border-radius: 1rem;
+    box-shadow: 0px 0px 3px 2px rgba(0, 0, 0, 0.2);
+
 }
 
 .about-details p {
@@ -59,19 +87,18 @@
 }
 
 .about-heading h1 {
-    font-size: 10rem;
+    font-size: 5rem;
     opacity: 0.2;
     color: black;
     text-align: center;
-    padding-top: 3rem;
+    /* padding-top: 3rem; */
 
 }
-
 
 .about-icons {
     display: flex;
     justify-content: space-evenly;
-    margin-top: 2rem;
+    padding-top: 3rem;
 }
 
 .about-icons i {
@@ -80,23 +107,24 @@
     cursor: pointer;
 }
 
-
-
-
-
 .my-skills {
-    margin-top: 1rem;
+    grid-row: 2 / -1;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr));
     grid-gap: 2.5rem;
     text-align: center;
+    margin-left: 5rem;
+    margin-right: 5rem;
 }
 
 .skill {
+    box-shadow: 0px 0px 3px 2px rgba(0, 0, 0, 0.2);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 1rem;
     padding: 1.5rem;
 }
 

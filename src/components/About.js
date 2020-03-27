@@ -28,8 +28,8 @@ class About extends React.Component {
                             Since beginning my journey as a freelance designer nearly 8 years ago, 
                             I've done remote work for agencies, consulted for startups, and collaborated with talented people to create digital products for both business and consumer use. 
                             I'm quietly confident, naturally curious, and perpetually racking my brain on creating the next amazing application.</p>
-                        </div>
-                        <div className="about-icons">
+
+                            <div className="about-icons">
                             <a href="https://facebook.com/kevin.amarbayar" rel="noopener noreferrer" target="_blank">
                                 <i className="fab fa-facebook-square"></i>
                             </a>
@@ -40,6 +40,8 @@ class About extends React.Component {
                                 <i className="fab fa-linkedin"></i>     
                             </a>
                         </div>
+                        </div>
+                        
                     </div>
                 </div>
                 <div className="my-skills">

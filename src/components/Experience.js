@@ -7,8 +7,8 @@ class Experience extends React.Component {
         return(
             <div className="experience">
                 <div className="section-heading">
-                <h1>Experience</h1>
-                <button href="google.com">Download Resume as PDF</button>
+                    <h1>Experience</h1>
+                    <button href="google.com">Download Resume as PDF</button>
                 </div>
                 <div className="timeline">
                     <ul>
@@ -26,7 +26,7 @@ class Experience extends React.Component {
                             <p>- Collaborated with an agile team to successfully develop an app from conception to production.<br/>
                                 - Built full-stack applications with <i>React</i>, <i>Node.js</i>, <i>Express</i>, and <i>MongoDB</i>.<br/>
                                 - Implemented advanced CSS including grid, flexbox, and responsive design.<br/>
-                                - Performed web service testing with Postman & unit and end-to-end testing with <i>Jest</i>.<br/>
+                                - Performed web service testing with <i>Postman</i> & unit and end-to-end testing with <i>Jest</i>.<br/>
                                 - Managed projects via <i>Github</i> by leveraging Kanban boards, source control, and issue tracking.</p>
                         </li>
                         <li className="date" data-date="01/2018 - 06/2018">
