@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 
 import '../style/home.css';
 
@@ -15,7 +16,9 @@ class Home extends React.Component {
                     <h6>|</h6>
                     <h6>Product Management</h6>
                     </div>
-                    <button>View My Work</button>
+                    {/* <button onClick=''>View My Work</button> */}
+                    <Link to="/portfolio" className="view-work">View My Work</Link>
+
                 </div>
             </div>
         )
