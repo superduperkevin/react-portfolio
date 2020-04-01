@@ -20,6 +20,7 @@
     z-index: 1;
     background: rgba(0,0,0,1);
     background-size: cover;
+    padding-bottom: 5rem;
 }
 
 .section-heading {
@@ -34,15 +35,20 @@
     margin-top: 7rem;
 }
 
-.section-heading button {
+.section-heading a {
     margin: 2rem auto 2rem auto;
+    background-color:#00ACEE;
+    color: white;
     padding: 1rem;
+    border: 1px solid #00ACEE;
     border-radius: 2rem;
     cursor: pointer;
+    text-decoration: none;
 }
 
-.section-heading button:hover {
-    background-color: #00ACEE;
+.section-heading a:hover {
+    background-color: black;
+    border-color: black;
     color: white;
 }
 

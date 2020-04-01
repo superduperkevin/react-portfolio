@@ -8,7 +8,7 @@ class Experience extends React.Component {
             <div className="experience">
                 <div className="section-heading">
                     <h1>Experience</h1>
-                    <button href="google.com">Download Resume as PDF</button>
+                    <a href='../Kevin.A_Resume.pdf' download>Click to download full resume</a>
                 </div>
                 <div className="timeline">
                     <ul>

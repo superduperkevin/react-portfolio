@@ -3,12 +3,14 @@ import './style/App.css';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
 import Header from './components/Header';
-// import Header2 from './components/Header2';
 import Portfolio from './components/Portfolio';
 import About from './components/About';
 import Home from './components/Home';
 import Experience from './components/Experience';
+import Footer from './components/Footer';
 
+//TODO: - Sticky navbar - Project on hover - navbar indicator -responsive - redesign about page
+//DONE: - Footer - pdf download - 
 
 function App() {
   return (
@@ -20,6 +22,7 @@ function App() {
         <Route path="/about" component={About} />
         <Route path="/experience" component={Experience} />
       </Switch>
+      <Footer/>
       </BrowserRouter>
   );
 }
